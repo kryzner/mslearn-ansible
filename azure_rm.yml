@@ -1,0 +1,9 @@
+plugin: azure_rm
+plain_host_names: yes
+include_vm_resource_groups:
+- learn-ansible-rg
+auth_source: auto
+keyed_groups:
+- prefix: tag
+  key: tags
+
